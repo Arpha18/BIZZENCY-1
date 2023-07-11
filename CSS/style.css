@@ -1,0 +1,64 @@
+/* Common Css Start */
+*{
+    margin:0;
+    padding:o;
+    outline:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,a,button{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.w-50{
+    width:calc(100%\ 2)
+}
+.w-33{
+    width:calc(100%\ 3)
+}
+img{
+    max-width: 100%;
+}
+.highlight-btn{
+    font-size:20px;
+    font-weight: 500px;
+    line-height: 44px;
+    color:#0f2f44;
+    background-color: #ffc712;
+    border-radius: 5px;
+    padding:16px 20px;
+}
+/* Comment Css End */
+
+/* Comment TopBar Sction Css Start */
+#topbar{
+    background-color:#0f2f44; 
+    color: #fefefe;
+    padding:17px 0;
+}
+#topbar .row{
+    justify-content:space-between;
+}
+/* Comment TopBar Section Css End */
+nav.ul{
+    justify-content: space-between;
+    align-items: center;
+}
